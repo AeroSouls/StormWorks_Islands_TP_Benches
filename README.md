@@ -1,4 +1,4 @@
-# stormworks
+# INSTALL
 Stormworks Island Edit Files
 
 Install:
