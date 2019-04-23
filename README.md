@@ -20,6 +20,8 @@ COPY island_15.xml and save it somewhere for safe keeping (Backup)
 
 Now paste the download edited version into the folder and overwrite the old one.
 
+Repeat these steps for all files
+
 ** Is still compatible with multiplayer ** 
 
 (They just can not see the other benches, but are able to use the new spawn zone.)
