@@ -8,7 +8,7 @@ arctic_island_playerbase.xml (Artic Base)
 
 Install:
 
-To install please make a backup of your file first!
+To install please make a backup of your files first!
 
 Go to your installation folder of the game > rom > data> tiles 
 
