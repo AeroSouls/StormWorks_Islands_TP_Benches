@@ -22,6 +22,6 @@ Now paste the download edited version into the folder and overwrite the old one.
 
 Repeat these steps for all files
 
-** Is still compatible with multiplayer ** 
+** Is still compatible with multiplayer / few bugs / all players need files to work correctly** 
 
 (They just can not see the other benches, but are able to use the new spawn zone.)
