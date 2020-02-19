@@ -1,7 +1,7 @@
-<!-- 
-	Aero's Edits 
-	Creative Base 
-	Version: v0.7.13
+<!--
+	Aero's Edits
+	Creative Base
+	Version: v0.10.6
 	Build zones edited: Dock,Hanger
 	Fast Travel point added to Dock bench
 	New benches and dock added @Geekness
@@ -21,23 +21,18 @@
 		<mesh id="control_tower" parent_id="" purchase_interactable_id="" seasonal_flags="0" file_name="meshes/ultimate_base_control.mesh">
 			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="-236.597916" 31="4.66" 32="-96.204704" 33="1"/>
 		</mesh>
-		<!-- Hangar -->
 		<mesh id="mesh4" parent_id="" purchase_interactable_id="" seasonal_flags="0" file_name="meshes/workbench.mesh">
 			<transform 00="0" 01="-0" 02="-1" 03="0" 10="0" 11="1" 12="-0" 13="0" 20="1" 21="0" 22="0" 23="0" 30="-246.670746" 31="5.607833" 32="78.735168" 33="1"/>
 		</mesh>
-		<!-- Dock -->
 		<mesh id="mesh5" parent_id="" purchase_interactable_id="" seasonal_flags="0" file_name="meshes/workbench.mesh">
 			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="-210.39975" 31="5.607833" 32="-43.170319" 33="1"/>
 		</mesh>
-		<!-- Giant Zone -->
 		<mesh id="mesh6" parent_id="" purchase_interactable_id="" seasonal_flags="0" file_name="meshes/workbench.mesh">
 			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="-200.169037" 31="5.607833" 32="-25.533791" 33="1"/>
 		</mesh>
-		<!-- New Dock -->
 		<mesh id="mesh7" parent_id="" purchase_interactable_id="" seasonal_flags="0" file_name="meshes/workbench.mesh">
 			<transform 00="-1" 01="0" 02="-0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="-1" 23="0" 30="-282.608124" 31="5.607833" 32="-96.608627" 33="1"/>
 		</mesh>
-		<!-- New Bench -->
 		<mesh id="mesh8" parent_id="" purchase_interactable_id="" seasonal_flags="0" file_name="meshes/workbench.mesh">
 			<transform 00="0.007204" 01="0" 02="0.999974" 03="0" 10="0" 11="1" 12="0" 13="0" 20="-0.999974" 21="0" 22="0.007204" 23="0" 30="-195.078903" 31="5.607833" 32="-89.925056" 33="1"/>
 		</mesh>
@@ -176,6 +171,12 @@
 		</physics_mesh>
 		<physics_mesh id="physics_mesh17" parent_id="" purchase_interactable_id="" seasonal_flags="0" file_name="meshes/workbench_phys.phys">
 			<transform 00="-0" 01="-0" 02="-1" 03="0" 10="0" 11="1" 12="-0" 13="0" 20="1" 21="0" 22="-0" 23="0" 30="-246.644684" 31="5.62838" 32="78.754593" 33="1"/>
+		</physics_mesh>
+		<physics_mesh id="physics_mesh18" parent_id="" purchase_interactable_id="" seasonal_flags="0" file_name="meshes/workbench_phys.phys">
+			<transform 00="0.007204" 01="0" 02="0.999974" 03="0" 10="0" 11="1" 12="0" 13="0" 20="-0.999974" 21="0" 22="0.007204" 23="0" 30="-195.078903" 31="5.607833" 32="-89.925056" 33="1"/>
+		</physics_mesh>
+		<physics_mesh id="physics_mesh19" parent_id="" purchase_interactable_id="" seasonal_flags="0" file_name="meshes/workbench_phys.phys">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="-200.169037" 31="5.607833" 32="-25.533791" 33="1"/>
 		</physics_mesh>
 		<physics_mesh id="hangar_door_small_phys" parent_id="hangar_door_small" purchase_interactable_id="" seasonal_flags="0" file_name="meshes/door_hospital_phys.phys">
 			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="-247.71312" 31="4.660248" 32="22.077621" 33="1"/>
@@ -679,7 +680,7 @@
 			<color x="10" y="10" z="4"/>
 		</light>
 		<light id="lighthouse_spot" parent_id="lighthouse_light" purchase_interactable_id="" seasonal_flags="0" range="500" fov="0.1" texture="graphics/ies/ies_default.txtr">
-			<transform 00="0" 01="0" 02="-1" 03="0" 10="-0.016417" 11="0.999866" 12="0" 13="0" 20="0.999866" 21="0.016417" 22="0" 23="0" 30="-226.436996" 31="15.942776" 32="101.248901" 33="1"/>
+			<transform 00="0" 01="0" 02="-1" 03="0" 10="-0.016417" 11="0.999866" 12="0" 13="0" 20="0.999866" 21="0.016417" 22="0" 23="0" 30="-226.316772" 31="15.942776" 32="101.248901" 33="1"/>
 			<color x="20" y="20" z="15"/>
 		</light>
 		<light id="halloween_spot_03" parent_id="" purchase_interactable_id="" seasonal_flags="1" range="30" fov="0.436332" texture="graphics/ies/ies_default.txtr">
@@ -695,71 +696,49 @@
 	<screens/>
 	<edit_areas>
 		<!-- Hangar -->
-		<edit_area id="edit0" parent_id="" purchase_interactable_id="" seasonal_flags="0" grid_size="0" is_static="false" default_vehicle="" spawned_static_vehicle_id="0" is_invisible_vehicle="false">
+		<edit_area id="hangar_edit" parent_id="" purchase_interactable_id="" seasonal_flags="0" grid_size="0" is_static="false" default_vehicle="" spawned_static_vehicle_id="0" is_invisible_vehicle="false">
 			<transform 00="-0" 01="-0" 02="-1" 03="0" 10="0" 11="1" 12="-0" 13="0" 20="1" 21="0" 22="-0" 23="0" 30="-233.641724" 31="10.483086" 32="50.973915" 33="1"/>
 			<size x="40.5" y="12" z="90"/>
 		</edit_area>
-		<!-- Docks -->
-		<edit_area id="edit1" parent_id="" purchase_interactable_id="" seasonal_flags="0" grid_size="0" is_static="false" default_vehicle="" spawned_static_vehicle_id="0" is_invisible_vehicle="false">
+		<!-- Main Dock -->
+		<edit_area id="dock_edit" parent_id="" purchase_interactable_id="" seasonal_flags="0" grid_size="0" is_static="false" default_vehicle="" spawned_static_vehicle_id="0" is_invisible_vehicle="false">
 			<transform 00="-1" 01="0" 02="-0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="-1" 23="0" 30="-228.251617" 31="10.326683" 32="-83.073463" 33="1"/>
 			<size x="22.5" y="30.5" z="90"/>
 		</edit_area>
-		<!-- Crane -->
-		<edit_area id="edit2" parent_id="" purchase_interactable_id="" seasonal_flags="0" grid_size="8" is_static="true" default_vehicle="crane_ultimate" spawned_static_vehicle_id="0" is_invisible_vehicle="false">
-			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="-228.309998" 31="13.316483" 32="-54.968998" 33="1"/>
-			<size x="50" y="50" z="78.75"/>
-		</edit_area>
-		<edit_area id="edit3" parent_id="" purchase_interactable_id="" seasonal_flags="0" grid_size="5" is_static="true" default_vehicle="bed" spawned_static_vehicle_id="0" is_invisible_vehicle="true">
+		<edit_area id="office_bed_01" parent_id="" purchase_interactable_id="" seasonal_flags="0" grid_size="5" is_static="true" default_vehicle="bed" spawned_static_vehicle_id="0" is_invisible_vehicle="true">
 			<transform 00="0" 01="0" 02="1" 03="0" 10="0" 11="1" 12="0" 13="0" 20="-1" 21="0" 22="0" 23="0" 30="-225.207153" 31="8.407701" 32="103.637291" 33="1"/>
 			<size x="0.75" y="0.25" z="1.75"/>
 		</edit_area>
-		<edit_area id="edit4" parent_id="" purchase_interactable_id="" seasonal_flags="0" grid_size="5" is_static="true" default_vehicle="bed" spawned_static_vehicle_id="0" is_invisible_vehicle="true">
+		<edit_area id="office_bed_02" parent_id="" purchase_interactable_id="" seasonal_flags="0" grid_size="5" is_static="true" default_vehicle="bed" spawned_static_vehicle_id="0" is_invisible_vehicle="true">
 			<transform 00="0" 01="0" 02="1" 03="0" 10="0" 11="1" 12="0" 13="0" 20="-1" 21="0" 22="0" 23="0" 30="-225.207153" 31="9.679093" 32="103.637291" 33="1"/>
 			<size x="0.75" y="0.25" z="1.75"/>
 		</edit_area>
-		<edit_area id="edit5" parent_id="" purchase_interactable_id="" seasonal_flags="0" grid_size="1" is_static="true" default_vehicle="fuel_store_1" spawned_static_vehicle_id="0" is_invisible_vehicle="false">
-			<transform 00="0.008917" 01="0" 02="0.99996" 03="0" 10="0" 11="1" 12="0" 13="0" 20="-0.99996" 21="0" 22="0.008917" 23="0" 30="-256.146881" 31="4.491417" 32="77.955521" 33="1"/>
-			<size x="7.5" y="7.5" z="15"/>
-		</edit_area>
-		<edit_area id="edit6" parent_id="" purchase_interactable_id="" seasonal_flags="0" grid_size="1" is_static="true" default_vehicle="fuel_store_1" spawned_static_vehicle_id="0" is_invisible_vehicle="false">
-			<transform 00="0.999673" 01="0" 02="-0.025584" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0.025584" 21="0" 22="0.999673" 23="0" 30="-212.568024" 31="4.491417" 32="-64.140976" 33="1"/>
-			<size x="7.5" y="7.5" z="15"/>
-		</edit_area>
 		<!-- Giant Zone -->
-		<edit_area id="edit7" parent_id="" purchase_interactable_id="" seasonal_flags="0" grid_size="0" is_static="false" default_vehicle="" spawned_static_vehicle_id="0" is_invisible_vehicle="false">
-			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="-151.601822" 31="49.284653" 32="-25.588146" 33="1"/>
+		<edit_area id="giant_zone" parent_id="" purchase_interactable_id="" seasonal_flags="0" grid_size="0" is_static="false" default_vehicle="" spawned_static_vehicle_id="0" is_invisible_vehicle="false">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="-151.601822" 31="50.284653" 32="-25.588146" 33="1"/>
 			<size x="90" y="90" z="90"/>
 		</edit_area>
 		<!-- New Dock -->
-		<edit_area id="edit8" parent_id="" purchase_interactable_id="" seasonal_flags="0" grid_size="0" is_static="false" default_vehicle="" spawned_static_vehicle_id="0" is_invisible_vehicle="false">
-			<transform 00="-1" 01="0" 02="-0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="-1" 23="0" 30="-186.794754" 31="23.553333" 32="-133.804897" 33="1"/>
-			<size x="22.5" y="30.5" z="90"/>
-		</edit_area>
-		<!-- Fifty Bench -->
-		<edit_area id="edit9" parent_id="" purchase_interactable_id="" seasonal_flags="0" grid_size="0" is_static="false" default_vehicle="" spawned_static_vehicle_id="0" is_invisible_vehicle="false">
-			<transform 00="-0.000599" 01="0" 02="1" 03="0" 10="0" 11="1" 12="0" 13="0" 20="-1" 21="0" 22="-0.000599" 23="0" 30="-170.43" 31="7.05" 32="-120" 33="1"/>
+		<edit_area id="new_dock" parent_id="" purchase_interactable_id="" seasonal_flags="0" grid_size="0" is_static="false" default_vehicle="" spawned_static_vehicle_id="0" is_invisible_vehicle="false">
+			<transform 00="-1.10" 01="0" 02="-0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="-1" 23="0" 30="-186.794754" 31="10.326683" 32="-140.804897" 33="1"/>
 			<size x="22.5" y="30.5" z="90"/>
 		</edit_area>
 	</edit_areas>
 	<interactables>
-		<interactable id="interact0" parent_id="" purchase_interactable_id="" seasonal_flags="0" target_object_id="edit0" label="Workbench" use_case="0" interact_type="2" is_purchased="false">
+		<interactable id="hangar_workbench_interact" parent_id="" purchase_interactable_id="" seasonal_flags="0" target_object_id="hangar_edit" label="Workbench" use_case="0" interact_type="2" is_purchased="false" is_ignore_purchased="false">
 			<transform 00="0" 01="-0" 02="-1" 03="0" 10="0" 11="1" 12="-0" 13="0" 20="1" 21="0" 22="0" 23="0" 30="-246.644684" 31="5.62838" 32="78.754593" 33="1"/>
 			<size x="1.22" y="1.936249" z="2.3"/>
 		</interactable>
-		<interactable id="interact1" parent_id="" purchase_interactable_id="" seasonal_flags="0" target_object_id="edit1" label="Workbench" use_case="0" interact_type="2" is_purchased="false">
+		<interactable id="dock_workbench_interact" parent_id="" purchase_interactable_id="" seasonal_flags="0" target_object_id="dock_edit" label="Workbench" use_case="0" interact_type="2" is_purchased="false" is_ignore_purchased="false">
 			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="-210.307556" 31="5.744957" 32="-43.245399" 33="1"/>
 			<size x="1.062714" y="1.500793" z="2.567657"/>
 		</interactable>
-		<interactable id="interact2" parent_id="" purchase_interactable_id="" seasonal_flags="0" target_object_id="edit7" label="Workbench" use_case="0" interact_type="2" is_purchased="false">
-			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="-200.169037" 31="5.744957" 32="-25.533791" 33="1"/>
+		<interactable id="new_dock_workbench_interact" parent_id="" purchase_interactable_id="" seasonal_flags="0" target_object_id="new_dock" label="Workbench" use_case="0" interact_type="2" is_purchased="false" is_ignore_purchased="false">
+			<transform 00="0.007204" 01="0" 02="0.999974" 03="0" 10="0" 11="1" 12="0" 13="0" 20="-0.999974" 21="0" 22="0.007204" 23="0" 30="-195.078903" 31="5.607833" 32="-89.925056" 33="1"/>
 			<size x="1.062714" y="1.500793" z="2.567657"/>
 		</interactable>
-		<interactable id="interact3" parent_id="" purchase_interactable_id="" seasonal_flags="0" target_object_id="edit8" label="Workbench" use_case="0" interact_type="2" is_purchased="false">
-			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="-282.608124" 31="5.744957" 32="-96.608627" 33="1"/>
-			<size x="1.062714" y="1.500793" z="2.567657"/>
-		</interactable>
-		<interactable id="interact4" parent_id="" purchase_interactable_id="" seasonal_flags="0" target_object_id="edit9" label="Workbench" use_case="0" interact_type="2" is_purchased="false">
-			<transform 00="0.007204" 01="0" 02="0.999974" 03="0" 10="0" 11="1" 12="0" 13="0" 20="-0.999974" 21="0" 22="0.007204" 23="0" 30="-195.078903" 31="5.744957" 32="-89.925056" 33="1"/>
+		<interactable id="new_giant_zone" parent_id="" purchase_interactable_id="" seasonal_flags="0" target_object_id="giant_zone" label="Workbench" use_case="0" interact_type="2" is_purchased="false" is_ignore_purchased="false">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="-200.169037" 31="5.607833" 32="-25.533791" 33="1"/>
 			<size x="1.062714" y="1.500793" z="2.567657"/>
 		</interactable>
 		<interactable id="door_1_interact" parent_id="door_1" purchase_interactable_id="" seasonal_flags="0" target_object_id="sliding_door_multi" label="Door" use_case="0" interact_type="0" is_purchased="false" is_ignore_purchased="false">
@@ -838,11 +817,7 @@
 			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="-288.419281" 31="9.139532" 32="59.405869" 33="1"/>
 			<size x="0.5" y="0.340973" z="0.5"/>
 		</interactable>
-		<interactable id="interact23" parent_id="" purchase_interactable_id="" seasonal_flags="0" target_object_id="edit2" label="use" use_case="3" interact_type="2" is_purchased="false" is_ignore_purchased="false">
-			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="-215.279541" 31="7.329422" 32="-35.828251" 33="1"/>
-			<size x="0.5" y="5" z="5"/>
-		</interactable>
-		<interactable id="interact22" parent_id="" purchase_interactable_id="" seasonal_flags="0" target_object_id="" label="Wardrobe" use_case="0" interact_type="4" is_purchased="false" is_ignore_purchased="false">
+		<interactable id="office_wardrobe_interact" parent_id="" purchase_interactable_id="" seasonal_flags="0" target_object_id="" label="Wardrobe" use_case="0" interact_type="4" is_purchased="false" is_ignore_purchased="false">
 			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="-229.01651" 31="9.116875" 32="103.351273" 33="1"/>
 			<size x="0.547089" y="2.16214" z="1.355072"/>
 		</interactable>
@@ -1564,3 +1539,4 @@
 	<train_tracks/>
 	<iceberg_markers/>
 </definition>
+<!-- Aeros Edits -->
