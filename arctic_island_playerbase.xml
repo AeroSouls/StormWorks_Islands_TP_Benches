@@ -1,7 +1,18 @@
-<!-- 
-	Aero's Edits 
-	Arctic 
-	Version: v0.6.19
+<!--
+░█████╗░███████╗██████╗░░█████╗░██╗░██████╗
+██╔══██╗██╔════╝██╔══██╗██╔══██╗╚█║██╔════╝
+███████║█████╗░░██████╔╝██║░░██║░╚╝╚█████╗░
+██╔══██║██╔══╝░░██╔══██╗██║░░██║░░░░╚═══██╗
+██║░░██║███████╗██║░░██║╚█████╔╝░░░██████╔╝
+╚═╝░░╚═╝╚══════╝╚═╝░░╚═╝░╚════╝░░░░╚═════╝░
+███████╗██████╗░██╗████████╗░██████╗
+██╔════╝██╔══██╗██║╚══██╔══╝██╔════╝
+█████╗░░██║░░██║██║░░░██║░░░╚█████╗░
+██╔══╝░░██║░░██║██║░░░██║░░░░╚═══██╗
+███████╗██████╔╝██║░░░██║░░░██████╔╝
+╚══════╝╚═════╝░╚═╝░░░╚═╝░░░╚═════╝░
+	Arctic
+	Version: v0.10.6
 	Build zones edited: Dock,Hanger
 	Fast Travel point added to Dock bench
  -->
@@ -36,7 +47,7 @@
 			<transform 00="0.743145" 01="0" 02="0.669131" 03="0" 10="0" 11="1" 12="0" 13="0" 20="-0.669131" 21="0" 22="0.743145" 23="0" 30="-158.650406" 31="23.344105" 32="244.199448" 33="1"/>
 		</mesh>
 		<mesh id="workbench_mesh" parent_id="workbench_hangar_interact" purchase_interactable_id="" seasonal_flags="0" file_name="meshes/workbench.mesh">
-			<transform 00="-0.672435" 01="0" 02="0.740156" 03="0" 10="0" 11="1" 12="0" 13="0" 20="-0.740156" 21="0" 22="-0.672435" 23="0" 30="-142.867477" 31="24.279541" 32="249.091248" 33="1"/>
+			<transform 00="0.672435" 01="0" 02="-0.740156" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0.740156" 21="0" 22="0.672435" 23="0" 30="-139.050125" 31="24.279541" 32="257.799347" 33="1"/>
 		</mesh>
 		<mesh id="door_entrance" parent_id="" purchase_interactable_id="" seasonal_flags="0" file_name="meshes/door_exterior.mesh">
 			<transform 00="0.66913" 01="0" 02="-0.743145" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0.743145" 21="0" 22="0.66913" 23="0" 30="-105.637413" 31="23.339249" 32="222.653793" 33="1"/>
@@ -63,7 +74,7 @@
 			<transform 00="-0.481565" 01="0" 02="-0.87641" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0.87641" 21="0" 22="-0.481565" 23="0" 30="224.734192" 31="7.786232" 32="261.738281" 33="1"/>
 		</mesh>
 		<mesh id="hangar_service_door" parent_id="" purchase_interactable_id="" seasonal_flags="0" file_name="meshes/door_exterior.mesh">
-			<transform 00="0.669131" 01="0" 02="-0.743145" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0.743145" 21="0" 22="0.669131" 23="0" 30="-156.444427" 31="23.338531" 32="241.129822" 33="1"/>
+			<transform 00="0.743145" 01="0" 02="0.669131" 03="0" 10="0" 11="1" 12="0" 13="0" 20="-0.669131" 21="0" 22="0.743145" 23="0" 30="-138.757935" 31="23.338531" 32="246.420303" 33="1"/>
 		</mesh>
 	</meshes>
 	<physics_objects/>
@@ -96,7 +107,7 @@
 			<transform 00="0.743145" 01="0" 02="0.669131" 03="0" 10="0" 11="1" 12="0" 13="0" 20="-0.669131" 21="0" 22="0.743145" 23="0" 30="-158.650406" 31="23.344105" 32="244.199448" 33="1"/>
 		</physics_mesh>
 		<physics_mesh id="workbench_mesh_phys" parent_id="workbench_hangar_interact" purchase_interactable_id="" seasonal_flags="0" file_name="meshes/workbench_phys.phys">
-			<transform 00="-0.669321" 01="0" 02="0.742973" 03="0" 10="0" 11="1" 12="0" 13="0" 20="-0.742973" 21="0" 22="-0.669321" 23="0" 30="-142.867477" 31="24.279541" 32="249.091248" 33="1"/>
+			<transform 00="0.669321" 01="0" 02="-0.742973" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0.742973" 21="0" 22="0.669321" 23="0" 30="-139.050125" 31="24.279541" 32="257.799347" 33="1"/>
 		</physics_mesh>
 		<physics_mesh id="door_entrance_phys" parent_id="door_entrance" purchase_interactable_id="" seasonal_flags="0" file_name="meshes/door_hospital_phys.phys">
 			<transform 00="0.669131" 01="0" 02="-0.743145" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0.743145" 21="0" 22="0.669131" 23="0" 30="-105.637413" 31="23.339249" 32="222.653793" 33="1"/>
@@ -123,7 +134,7 @@
 			<transform 00="-0.479321" 01="0" 02="-0.87764" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0.87764" 21="0" 22="-0.479321" 23="0" 30="224.734192" 31="7.786232" 32="261.738281" 33="1"/>
 		</physics_mesh>
 		<physics_mesh id="hangar_service_door_phys" parent_id="hangar_service_door" purchase_interactable_id="" seasonal_flags="0" file_name="meshes/door_hospital_phys.phys">
-			<transform 00="0.681998" 01="0" 02="-0.731354" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0.731354" 21="0" 22="0.681998" 23="0" 30="-156.444427" 31="23.338531" 32="241.129822" 33="1"/>
+			<transform 00="0.731354" 01="0" 02="0.681998" 03="0" 10="0" 11="1" 12="0" 13="0" 20="-0.681998" 21="0" 22="0.731354" 23="0" 30="-138.757935" 31="23.338531" 32="246.420303" 33="1"/>
 		</physics_mesh>
 	</physics_meshes>
 	<physics_dynamics/>
@@ -329,7 +340,7 @@
 			<color x="30" y="30" z="22"/>
 		</light>
 		<light id="omni_warning" parent_id="" purchase_interactable_id="" seasonal_flags="0" radius="1" is_render_halo="true">
-			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="-157.752869" 31="25.880669" 32="242.187698" 33="1"/>
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="-137.472656" 31="25.175011" 32="247.325745" 33="1"/>
 			<color x="1.5" y="1" z="0"/>
 		</light>
 		<light id="omni51" parent_id="" purchase_interactable_id="" seasonal_flags="0" radius="5" is_render_halo="true">
@@ -355,6 +366,14 @@
 		<light id="omni_dock_02" parent_id="" purchase_interactable_id="" seasonal_flags="0" radius="2" is_render_halo="true">
 			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="195.260757" 31="20.119463" 32="228.517685" 33="1"/>
 			<color x="1" y="1" z="0.8"/>
+		</light>
+		<light id="omni57" parent_id="" purchase_interactable_id="" seasonal_flags="0" radius="3" is_render_halo="true">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="-138.3284" 31="25.837158" 32="246.636353" 33="1"/>
+			<color x="1" y="1" z="0.8"/>
+		</light>
+		<light id="omni_warning_01" parent_id="" purchase_interactable_id="" seasonal_flags="0" radius="1" is_render_halo="true">
+			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="-137.796722" 31="25.175011" 32="247.687485" 33="1"/>
+			<color x="1.5" y="1" z="0"/>
 		</light>
 	</lights_omni>
 	<lights_spot>
@@ -459,40 +478,30 @@
 	</lights_tube>
 	<screens/>
 	<edit_areas>
-	<!-- Hanger -->
-		<edit_area id="edit_hangar" parent_id="" purchase_interactable_id="" seasonal_flags="0" grid_size="0" is_static="false" default_vehicle="" spawned_static_vehicle_id="0" is_invisible_vehicle="false">
-			<transform 00="-0.669131" 01="0" 02="0.743145" 03="0" 10="0" 11="1" 12="0" 13="0" 20="-0.743145" 21="0" 22="-0.669131" 23="0" 30="-154.895706" 31="28.414434" 32="275.532104" 33="1"/>
+		<edit_area id="hangar_edit" parent_id="" purchase_interactable_id="" seasonal_flags="0" grid_size="0" is_static="false" default_vehicle="" spawned_static_vehicle_id="0" is_invisible_vehicle="false">
+			<transform 00="-0.669131" 01="0" 02="0.743145" 03="0" 10="0" 11="1" 12="0" 13="0" 20="-0.743145" 21="0" 22="-0.669131" 23="0" 30="-169.895706" 31="29.414434" 32="262.532104" 33="1"/>
 			<size x="40.5" y="12" z="90"/>
 		</edit_area>
-		<!-- Boat Dock -->
-		<edit_area id="edit1" parent_id="" purchase_interactable_id="" seasonal_flags="0" grid_size="0" is_static="false" default_vehicle="" spawned_static_vehicle_id="0" is_invisible_vehicle="false">
+		<edit_area id="dock_edit" parent_id="" purchase_interactable_id="" seasonal_flags="0" grid_size="0" is_static="false" default_vehicle="" spawned_static_vehicle_id="0" is_invisible_vehicle="false">
 			<transform 00="-0.503111" 01="0" 02="-0.864222" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0.864222" 21="0" 22="-0.503111" 23="0" 30="202.886673" 31="6.771343" 32="293.177734" 33="1"/>
 			<size x="22.5" y="30.5" z="90"/>
 		</edit_area>
-		<edit_area id="edit2" parent_id="" purchase_interactable_id="" seasonal_flags="0" grid_size="1" is_static="true" default_vehicle="fuel_store_1" spawned_static_vehicle_id="0" is_invisible_vehicle="false">
-			<transform 00="-0.49814" 01="0" 02="-0.867096" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0.867096" 21="0" 22="-0.49814" 23="0" 30="192.088425" 31="6.689327" 32="279.289185" 33="1"/>
-			<size x="7.5" y="7.5" z="15"/>
-		</edit_area>
-		<edit_area id="edit3" parent_id="" purchase_interactable_id="" seasonal_flags="0" grid_size="5" is_static="true" default_vehicle="bed" spawned_static_vehicle_id="0" is_invisible_vehicle="true">
+		<edit_area id="bed_01" parent_id="" purchase_interactable_id="" seasonal_flags="0" grid_size="5" is_static="true" default_vehicle="bed" spawned_static_vehicle_id="0" is_invisible_vehicle="true">
 			<transform 00="-0.74257" 01="0" 02="-0.669768" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0.669768" 21="0" 22="-0.74257" 23="0" 30="-102.36042" 31="23.748373" 32="238.893051" 33="1"/>
 			<size x="0.75" y="0.25" z="1.75"/>
 		</edit_area>
-		<edit_area id="edit4" parent_id="" purchase_interactable_id="" seasonal_flags="0" grid_size="5" is_static="true" default_vehicle="bed" spawned_static_vehicle_id="0" is_invisible_vehicle="true">
+		<edit_area id="bed_02" parent_id="" purchase_interactable_id="" seasonal_flags="0" grid_size="5" is_static="true" default_vehicle="bed" spawned_static_vehicle_id="0" is_invisible_vehicle="true">
 			<transform 00="-0.74257" 01="0" 02="-0.669768" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0.669768" 21="0" 22="-0.74257" 23="0" 30="-101.010521" 31="23.748373" 32="240.110611" 33="1"/>
 			<size x="0.75" y="0.25" z="1.75"/>
-		</edit_area>
-		<edit_area id="edit5" parent_id="" purchase_interactable_id="" seasonal_flags="0" grid_size="0" is_static="true" default_vehicle="fuel_store_1" spawned_static_vehicle_id="0" is_invisible_vehicle="false">
-			<transform 00="0.670938" 01="0" 02="-0.741513" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0.741513" 21="0" 22="0.670938" 23="0" 30="-147.659317" 31="23.38118" 32="245.095612" 33="1"/>
-			<size x="4" y="4" z="4"/>
 		</edit_area>
 	</edit_areas>
 	<interactables>
 		<interactable id="doors_hangar_interact_01" parent_id="" purchase_interactable_id="" seasonal_flags="0" target_object_id="door_hangar_all_logic" label="Doors" use_case="0" interact_type="0" is_purchased="false" is_ignore_purchased="false">
-			<transform 00="0.672287" 01="0" 02="-0.74029" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0.74029" 21="0" 22="0.672287" 23="0" 30="-157.843689" 31="24.42429" 32="242.452972" 33="1"/>
-			<size x="0.419095" y="0.787414" z="0.321842"/>
+			<transform 00="0.74029" 01="0" 02="0.672287" 03="0" 10="0" 11="1" 12="0" 13="0" 20="-0.672287" 21="0" 22="0.74029" 23="0" 30="-137.743042" 31="24.123762" 32="247.407394" 33="1"/>
+			<size x="0.276969" y="0.38401" z="0.344743"/>
 		</interactable>
-		<interactable id="workbench_hangar_interact" parent_id="" purchase_interactable_id="" seasonal_flags="0" target_object_id="edit_hangar" label="Workbench" use_case="0" interact_type="2" is_purchased="false" is_ignore_purchased="false">
-			<transform 00="-0.673056" 01="0" 02="0.739592" 03="0" 10="0" 11="1" 12="0" 13="0" 20="-0.739592" 21="0" 22="-0.673056" 23="0" 30="-143.005417" 31="24.273521" 32="249.230438" 33="1"/>
+		<interactable id="workbench_hangar_interact" parent_id="" purchase_interactable_id="" seasonal_flags="0" target_object_id="hangar_edit" label="Workbench" use_case="0" interact_type="2" is_purchased="false" is_ignore_purchased="false">
+			<transform 00="-0.673056" 01="0" 02="0.739592" 03="0" 10="0" 11="1" 12="0" 13="0" 20="-0.739592" 21="0" 22="-0.673056" 23="0" 30="-138.955673" 31="24.273521" 32="257.716949" 33="1"/>
 			<size x="1.507358" y="1.811243" z="2.045538"/>
 		</interactable>
 		<interactable id="door_entrance_interact" parent_id="door_entrance" purchase_interactable_id="" seasonal_flags="0" target_object_id="door_entrance_logic" label="Door" use_case="0" interact_type="0" is_purchased="false" is_ignore_purchased="false">
@@ -531,7 +540,7 @@
 			<transform 00="1" 01="0" 02="0" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0" 21="0" 22="1" 23="0" 30="-144.597748" 31="24.326958" 32="232.05249" 33="1"/>
 			<size x="2.451158" y="1.906491" z="2.560533"/>
 		</interactable>
-		<interactable id="workbench_dock_interact" parent_id="" purchase_interactable_id="" seasonal_flags="0" target_object_id="edit1" label="Workbench" use_case="0" interact_type="2" is_purchased="false" is_ignore_purchased="false">
+		<interactable id="workbench_dock_interact" parent_id="" purchase_interactable_id="" seasonal_flags="0" target_object_id="dock_edit" label="Workbench" use_case="0" interact_type="2" is_purchased="false" is_ignore_purchased="false">
 			<transform 00="0.874863" 01="0" 02="-0.48437" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0.48437" 21="0" 22="0.874863" 23="0" 30="224.734192" 31="7.812577" 32="261.738281" 33="1"/>
 			<size x="2.036167" y="1.925087" z="1.769023"/>
 		</interactable>
@@ -540,47 +549,39 @@
 			<size x="0.82413" y="0.978864" z="0.866926"/>
 		</interactable>
 		<interactable id="lights_hangar_interact_01" parent_id="" purchase_interactable_id="" seasonal_flags="0" target_object_id="hangar_lights_all_logic" label="Lights" use_case="0" interact_type="0" is_purchased="false" is_ignore_purchased="false">
-			<transform 00="0.672287" 01="0" 02="-0.74029" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0.74029" 21="0" 22="0.672287" 23="0" 30="-157.517715" 31="24.427509" 32="242.038925" 33="1"/>
-			<size x="0.419095" y="0.787414" z="0.361393"/>
-		</interactable>
-		<interactable id="doors_hangar_interact_02" parent_id="" purchase_interactable_id="" seasonal_flags="0" target_object_id="door_hangar_all_logic" label="Doors" use_case="0" interact_type="0" is_purchased="false" is_ignore_purchased="false">
-			<transform 00="0.672287" 01="0" 02="-0.74029" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0.74029" 21="0" 22="0.672287" 23="0" 30="-157.322937" 31="24.496948" 32="242.936264" 33="1"/>
-			<size x="0.419095" y="0.787414" z="0.340315"/>
-		</interactable>
-		<interactable id="lights_hangar_interact_02" parent_id="" purchase_interactable_id="" seasonal_flags="0" target_object_id="hangar_lights_all_logic" label="Lights" use_case="0" interact_type="0" is_purchased="false" is_ignore_purchased="false">
-			<transform 00="0.672287" 01="0" 02="-0.74029" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0.74029" 21="0" 22="0.672287" 23="0" 30="-156.947617" 31="24.496948" 32="242.52623" 33="1"/>
-			<size x="0.419095" y="0.787414" z="0.361393"/>
-		</interactable>
-		<interactable id="bedside_lamp_interact_02" parent_id="" purchase_interactable_id="" seasonal_flags="0" target_object_id="light_switch23" label="Light" use_case="0" interact_type="0" is_purchased="false" is_ignore_purchased="false">
-			<transform 00="0.751587" 01="0" 02="0.659634" 03="0" 10="0" 11="1" 12="0" 13="0" 20="-0.659634" 21="0" 22="0.751587" 23="0" 30="-100.717834" 31="24.503864" 32="241.381409" 33="1"/>
-			<size x="0.5" y="0.5" z="0.5"/>
+			<transform 00="0.74029" 01="0" 02="0.672287" 03="0" 10="0" 11="1" 12="0" 13="0" 20="-0.672287" 21="0" 22="0.74029" 23="0" 30="-137.514282" 31="24.116732" 32="247.621216" 33="1"/>
+			<size x="0.268453" y="0.379301" z="0.340831"/>
 		</interactable>
 		<interactable id="bedside_lamp_interact_01" parent_id="" purchase_interactable_id="" seasonal_flags="0" target_object_id="light_switch22" label="Light" use_case="0" interact_type="0" is_purchased="false" is_ignore_purchased="false">
 			<transform 00="0.751587" 01="0" 02="0.659634" 03="0" 10="0" 11="1" 12="0" 13="0" 20="-0.659634" 21="0" 22="0.751587" 23="0" 30="-103.660301" 31="24.464584" 32="238.693726" 33="1"/>
 			<size x="0.5" y="0.5" z="0.5"/>
 		</interactable>
 		<interactable id="hangar_service_door_interact" parent_id="hangar_service_door" purchase_interactable_id="" seasonal_flags="0" target_object_id="hangar_service_door_logic" label="Door" use_case="0" interact_type="0" is_purchased="false" is_ignore_purchased="false">
-			<transform 00="0.653503" 01="0" 02="-0.756924" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0.756924" 21="0" 22="0.653503" 23="0" 30="-156.014999" 31="24.464672" 32="240.878738" 33="1"/>
+			<transform 00="0.756924" 01="0" 02="0.653503" 03="0" 10="0" 11="1" 12="0" 13="0" 20="-0.653503" 21="0" 22="0.756924" 23="0" 30="-138.462463" 31="24.464672" 32="246.767105" 33="1"/>
 			<size x="0.892517" y="1.952684" z="0.765262"/>
+		</interactable>
+		<interactable id="bedside_lamp_interact_02" parent_id="" purchase_interactable_id="" seasonal_flags="0" target_object_id="light_switch23" label="Light" use_case="0" interact_type="0" is_purchased="false" is_ignore_purchased="false">
+			<transform 00="0.751587" 01="0" 02="0.659634" 03="0" 10="0" 11="1" 12="0" 13="0" 20="-0.659634" 21="0" 22="0.751587" 23="0" 30="-100.717834" 31="24.503864" 32="241.381409" 33="1"/>
+			<size x="0.5" y="0.5" z="0.5"/>
 		</interactable>
 	</interactables>
 	<door_logic_nodes>
-		<logic id="door_hangar_01_logic" parent_id="" purchase_interactable_id="" seasonal_flags="0" target_a="door_hangar_01_closed" target_b="door_hangar_01_open" target_movable="door_hangar_01" target_triggered="" pos_index="0" pos_factor="0" anim_duration="180" anim_delay="0" anim_delay_back="0" is_on="false" behavior="0">
+		<logic id="door_hangar_01_logic" parent_id="" purchase_interactable_id="" seasonal_flags="0" target_a="door_hangar_01_closed" target_b="door_hangar_01_open" target_movable="door_hangar_01" target_triggered="" pos_index="0" pos_factor="0" anim_duration="250" anim_delay="0" anim_delay_back="0" is_on="false" behavior="0">
 			<transform 00="-0.67018" 01="0" 02="0.742199" 03="0" 10="0" 11="1" 12="0" 13="0" 20="-0.742199" 21="0" 22="-0.67018" 23="0" 30="-190.416382" 31="26.482559" 32="278.791534" 33="1"/>
 		</logic>
-		<logic id="door_hangar_02_logic" parent_id="" purchase_interactable_id="" seasonal_flags="0" target_a="door_hangar_02_closed" target_b="hanger_02_open" target_movable="door_hangar_02" target_triggered="" pos_index="0" pos_factor="0" anim_duration="180" anim_delay="0" anim_delay_back="0" is_on="false" behavior="0">
+		<logic id="door_hangar_02_logic" parent_id="" purchase_interactable_id="" seasonal_flags="0" target_a="door_hangar_02_closed" target_b="hanger_02_open" target_movable="door_hangar_02" target_triggered="" pos_index="0" pos_factor="0" anim_duration="250" anim_delay="0" anim_delay_back="0" is_on="false" behavior="0">
 			<transform 00="-0.67018" 01="0" 02="0.742199" 03="0" 10="0" 11="1" 12="0" 13="0" 20="-0.742199" 21="0" 22="-0.67018" 23="0" 30="-189.906998" 31="26.482559" 32="278.227417" 33="1"/>
 		</logic>
-		<logic id="door_hangar_03_logic" parent_id="" purchase_interactable_id="" seasonal_flags="0" target_a="door_hangar_03_closed" target_b="door_hangar_03_open" target_movable="door_hangar_03" target_triggered="" pos_index="0" pos_factor="0" anim_duration="180" anim_delay="0" anim_delay_back="0" is_on="false" behavior="0">
+		<logic id="door_hangar_03_logic" parent_id="" purchase_interactable_id="" seasonal_flags="0" target_a="door_hangar_03_closed" target_b="door_hangar_03_open" target_movable="door_hangar_03" target_triggered="" pos_index="0" pos_factor="0" anim_duration="250" anim_delay="0" anim_delay_back="0" is_on="false" behavior="0">
 			<transform 00="-0.67018" 01="0" 02="0.742199" 03="0" 10="0" 11="1" 12="0" 13="0" 20="-0.742199" 21="0" 22="-0.67018" 23="0" 30="-189.406509" 31="26.482559" 32="277.673157" 33="1"/>
 		</logic>
-		<logic id="door_hangar_04_logic" parent_id="" purchase_interactable_id="" seasonal_flags="0" target_a="door_hangar_04_closed" target_b="door_hangar_04_open" target_movable="door_hangar_04" target_triggered="" pos_index="0" pos_factor="0" anim_duration="180" anim_delay="0" anim_delay_back="0" is_on="false" behavior="0">
+		<logic id="door_hangar_04_logic" parent_id="" purchase_interactable_id="" seasonal_flags="0" target_a="door_hangar_04_closed" target_b="door_hangar_04_open" target_movable="door_hangar_04" target_triggered="" pos_index="0" pos_factor="0" anim_duration="250" anim_delay="0" anim_delay_back="0" is_on="false" behavior="0">
 			<transform 00="-0.67018" 01="0" 02="0.742199" 03="0" 10="0" 11="1" 12="0" 13="0" 20="-0.742199" 21="0" 22="-0.67018" 23="0" 30="-188.810242" 31="26.482559" 32="277.012787" 33="1"/>
 		</logic>
-		<logic id="door_hangar_05_logic" parent_id="" purchase_interactable_id="" seasonal_flags="0" target_a="door_hangar_05_closed" target_b="door_hangar_05_open" target_movable="door_hangar_05" target_triggered="" pos_index="0" pos_factor="0" anim_duration="180" anim_delay="0" anim_delay_back="0" is_on="false" behavior="0">
+		<logic id="door_hangar_05_logic" parent_id="" purchase_interactable_id="" seasonal_flags="0" target_a="door_hangar_05_closed" target_b="door_hangar_05_open" target_movable="door_hangar_05" target_triggered="" pos_index="0" pos_factor="0" anim_duration="250" anim_delay="0" anim_delay_back="0" is_on="false" behavior="0">
 			<transform 00="-0.67018" 01="0" 02="0.742199" 03="0" 10="0" 11="1" 12="0" 13="0" 20="-0.742199" 21="0" 22="-0.67018" 23="0" 30="-188.252563" 31="26.482559" 32="276.395172" 33="1"/>
 		</logic>
-		<logic id="door_hangar_06_logic" parent_id="" purchase_interactable_id="" seasonal_flags="0" target_a="door_hangar_06_closed" target_b="door_hangar_06_open" target_movable="door_hangar_06" target_triggered="" pos_index="0" pos_factor="0" anim_duration="180" anim_delay="0" anim_delay_back="0" is_on="false" behavior="0">
+		<logic id="door_hangar_06_logic" parent_id="" purchase_interactable_id="" seasonal_flags="0" target_a="door_hangar_06_closed" target_b="door_hangar_06_open" target_movable="door_hangar_06" target_triggered="" pos_index="0" pos_factor="0" anim_duration="250" anim_delay="0" anim_delay_back="0" is_on="false" behavior="0">
 			<transform 00="-0.67018" 01="0" 02="0.742199" 03="0" 10="0" 11="1" 12="0" 13="0" 20="-0.742199" 21="0" 22="-0.67018" 23="0" 30="-187.707382" 31="26.482559" 32="275.791412" 33="1"/>
 		</logic>
 		<logic id="door_entrance_logic" parent_id="" purchase_interactable_id="" seasonal_flags="0" target_a="door_entrance_closed" target_b="door_entrance_open" target_movable="door_entrance" target_triggered="" pos_index="0" pos_factor="0" anim_duration="50" anim_delay="0" anim_delay_back="0" is_on="false" behavior="0">
@@ -670,13 +671,16 @@
 			<transform 00="0.684808" 01="0" 02="-0.728724" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0.728724" 21="0" 22="0.684808" 23="0" 30="-156.345596" 31="26.374495" 32="241.717651" 33="1"/>
 		</logic>
 		<logic id="omni_warning_logic" parent_id="" purchase_interactable_id="" seasonal_flags="0" target="omni_warning" is_on="false" is_flashing="false" flicker_duration="0" flash_on_duration="30" flash_off_duration="30">
-			<transform 00="-0.678851" 01="0" 02="0.734276" 03="0" 10="0" 11="1" 12="0" 13="0" 20="-0.734276" 21="0" 22="-0.678851" 23="0" 30="-157.263992" 31="25.880669" 32="241.826736" 33="1"/>
+			<transform 00="-0.678851" 01="0" 02="0.734276" 03="0" 10="0" 11="1" 12="0" 13="0" 20="-0.734276" 21="0" 22="-0.678851" 23="0" 30="-153.619675" 31="25.880669" 32="237.884888" 33="1"/>
 		</logic>
 		<logic id="light_switch22" parent_id="" purchase_interactable_id="" seasonal_flags="0" target="omni55" is_on="true" is_flashing="false" flicker_duration="0" flash_on_duration="30" flash_off_duration="30">
 			<transform 00="-0.718848" 01="0" 02="-0.695168" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0.695168" 21="0" 22="-0.718848" 23="0" 30="-103.428925" 31="24.464584" 32="239.166565" 33="1"/>
 		</logic>
 		<logic id="light_switch23" parent_id="" purchase_interactable_id="" seasonal_flags="0" target="omni56" is_on="true" is_flashing="false" flicker_duration="0" flash_on_duration="30" flash_off_duration="30">
 			<transform 00="-0.718848" 01="0" 02="-0.695168" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0.695168" 21="0" 22="-0.718848" 23="0" 30="-101.415092" 31="24.464584" 32="240.887283" 33="1"/>
+		</logic>
+		<logic id="omni_warning_01_logic" parent_id="" purchase_interactable_id="" seasonal_flags="0" target="omni_warning_01" is_on="false" is_flashing="false" flicker_duration="0" flash_on_duration="30" flash_off_duration="30">
+			<transform 00="-0.678851" 01="0" 02="0.734276" 03="0" 10="0" 11="1" 12="0" 13="0" 20="-0.734276" 21="0" 22="-0.678851" 23="0" 30="-154.600021" 31="25.880669" 32="238.945282" 33="1"/>
 		</logic>
 	</light_logic_nodes>
 	<rotation_logic_nodes/>
@@ -784,10 +788,10 @@
 			<transform 00="-0.996044" 01="0" 02="0.088859" 03="0" 10="0" 11="1" 12="0" 13="0" 20="-0.088859" 21="0" 22="-0.996044" 23="0" 30="222.73" 31="9.35" 32="256.84" 33="1"/>
 		</markers>
 		<markers id="hangar_service_door_closed" parent_id="" purchase_interactable_id="" seasonal_flags="0" marker_type="8" is_in_ocean="false" string_data="" icon="1">
-			<transform 00="0.669131" 01="0" 02="-0.743145" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0.743145" 21="0" 22="0.669131" 23="0" 30="-156.444427" 31="23.338531" 32="241.129822" 33="1"/>
+			<transform 00="0.743145" 01="0" 02="0.669131" 03="0" 10="0" 11="1" 12="0" 13="0" 20="-0.669131" 21="0" 22="0.743145" 23="0" 30="-138.757935" 31="23.338531" 32="246.420303" 33="1"/>
 		</markers>
 		<markers id="hangar_service_door_open" parent_id="" purchase_interactable_id="" seasonal_flags="0" marker_type="8" is_in_ocean="false" string_data="" icon="1">
-			<transform 00="-0.704894" 01="0" 02="-0.709313" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0.709313" 21="0" 22="-0.704894" 23="0" 30="-156.444427" 31="23.338531" 32="241.129822" 33="1"/>
+			<transform 00="0.709313" 01="0" 02="-0.704894" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0.704894" 21="0" 22="0.709313" 23="0" 30="-138.757935" 31="23.338531" 32="246.420303" 33="1"/>
 		</markers>
 	</tile_markers>
 	<mission_zones>
@@ -845,7 +849,14 @@
 			<transform 00="-0.966317" 01="0" 02="0.257357" 03="0" 10="0" 11="1" 12="0" 13="0" 20="-0.257357" 21="0" 22="-0.966317" 23="0" 30="-104.508377" 31="23.590843" 32="237.065735" 33="1"/>
 		</dynamic_marker>
 	</dynamic_markers>
-	<ladders/>
+	<ladders>
+		<ladder id="ladder_left" parent_id="" purchase_interactable_id="" seasonal_flags="0" height="10">
+			<transform 00="0.866025" 01="0" 02="-0.5" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0.5" 21="0" 22="0.866025" 23="0" 30="230.79364" 31="-3.1" 32="261.08075" 33="1"/>
+		</ladder>
+		<ladder id="ladder_right" parent_id="" purchase_interactable_id="" seasonal_flags="0" height="10">
+			<transform 00="0.866025" 01="0" 02="-0.5" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0.5" 21="0" 22="0.866025" 23="0" 30="152.858231" 31="-3.1" 32="306.076752" 33="1"/>
+		</ladder>
+	</ladders>
 	<perches>
 		<perch id="perch0" parent_id="" purchase_interactable_id="" seasonal_flags="0" type="1">
 			<transform 00="0.975882" 01="0" 02="0.218301" 03="0" 10="0" 11="1" 12="0" 13="0" 20="-0.218301" 21="0" 22="0.975882" 23="0" 30="-473.961365" 31="1.718944" 32="143.947205" 33="1"/>
@@ -924,4 +935,4 @@
 	<train_tracks/>
 	<iceberg_markers/>
 </definition>
-
+<!--Aeros Edits-->

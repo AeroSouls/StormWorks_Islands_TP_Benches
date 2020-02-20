@@ -1,7 +1,18 @@
-<!-- 
-	Aero's Edits 
-	Terminal Spycakes 
-	Version: v0.6.19
+<!--
+░█████╗░███████╗██████╗░░█████╗░██╗░██████╗
+██╔══██╗██╔════╝██╔══██╗██╔══██╗╚█║██╔════╝
+███████║█████╗░░██████╔╝██║░░██║░╚╝╚█████╗░
+██╔══██║██╔══╝░░██╔══██╗██║░░██║░░░░╚═══██╗
+██║░░██║███████╗██║░░██║╚█████╔╝░░░██████╔╝
+╚═╝░░╚═╝╚══════╝╚═╝░░╚═╝░╚════╝░░░░╚═════╝░
+███████╗██████╗░██╗████████╗░██████╗
+██╔════╝██╔══██╗██║╚══██╔══╝██╔════╝
+█████╗░░██║░░██║██║░░░██║░░░╚█████╗░
+██╔══╝░░██║░░██║██║░░░██║░░░░╚═══██╗
+███████╗██████╔╝██║░░░██║░░░██████╔╝
+╚══════╝╚═════╝░╚═╝░░░╚═╝░░░╚═════╝░
+	Terminal Spycakes
+	Version: v0.10.6
 	Build zones edited: Dock,Train
 	Fast Travel point added to train bench
  -->
@@ -263,6 +274,14 @@
 	</lights_tube>
 	<screens/>
 	<edit_areas>
+		<edit_area id="dock_edit" parent_id="" purchase_interactable_id="" seasonal_flags="0" grid_size="0" is_static="false" default_vehicle="" spawned_static_vehicle_id="0" is_invisible_vehicle="false">
+			<transform 00="-0.597399" 01="0" 02="-0.801944" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0.801944" 21="0" 22="-0.597399" 23="0" 30="155.974823" 31="4.09436" 32="155.022827" 33="1"/>
+			<size x="22.5" y="30.5" z="90"/>
+		</edit_area>
+		<edit_area id="train_edit" parent_id="" purchase_interactable_id="" seasonal_flags="0" grid_size="0" is_static="false" default_vehicle="" spawned_static_vehicle_id="0" is_invisible_vehicle="false">
+			<transform 00="0.350714" 01="0" 02="0.936482" 03="0" 10="0" 11="1" 12="0" 13="0" 20="-0.936482" 21="0" 22="0.350714" 23="0" 30="-65.98" 31="19.023254" 32="282.98" 33="1"/>
+			<size x="4" y="6" z="100"/>
+		</edit_area>
 		<edit_area id="bed_01" parent_id="" purchase_interactable_id="" seasonal_flags="0" grid_size="5" is_static="true" default_vehicle="bed" spawned_static_vehicle_id="0" is_invisible_vehicle="true">
 			<transform 00="0.404017" 01="0" 02="0.914751" 03="0" 10="0" 11="1" 12="0" 13="0" 20="-0.914751" 21="0" 22="0.404017" 23="0" 30="-1.951172" 31="36.979683" 32="363.211548" 33="1"/>
 			<size x="0.75" y="0.25" z="1.75"/>
@@ -291,15 +310,6 @@
 			<transform 00="-0.790038" 01="0" 02="0.613058" 03="0" 10="0" 11="1" 12="0" 13="0" 20="-0.613058" 21="0" 22="-0.790038" 23="0" 30="124.744308" 31="5.690834" 32="254.979919" 33="1"/>
 			<size x="0.75" y="0.25" z="1.75"/>
 		</edit_area>
-		<!-- Boat Dock -->
-		<edit_area id="edit7" parent_id="" purchase_interactable_id="" seasonal_flags="0" grid_size="0" is_static="false" default_vehicle="" spawned_static_vehicle_id="0" is_invisible_vehicle="false">
-			<transform 00="-0.597399" 01="0" 02="-0.801944" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0.801944" 21="0" 22="-0.597399" 23="0" 30="155.974823" 31="4.09436" 32="155.022827" 33="1"/>
-			<size x="22.5" y="30.5" z="90"/>
-		</edit_area>
-		<edit_area id="fuel_store_dock" parent_id="" purchase_interactable_id="" seasonal_flags="0" grid_size="1" is_static="true" default_vehicle="fuel_store_1" spawned_static_vehicle_id="0" is_invisible_vehicle="false">
-			<transform 00="0.599202" 01="0" 02="0.800598" 03="0" 10="0" 11="1" 12="0" 13="0" 20="-0.800598" 21="0" 22="0.599202" 23="0" 30="166.814148" 31="5.040283" 32="167.202911" 33="1"/>
-			<size x="7.5" y="7.5" z="15"/>
-		</edit_area>
 		<edit_area id="edit9" parent_id="" purchase_interactable_id="" seasonal_flags="0" grid_size="1" is_static="true" default_vehicle="signal" spawned_static_vehicle_id="0" is_invisible_vehicle="false">
 			<transform 00="0.340052" 01="0" 02="0.940407" 03="0" 10="0" 11="1" 12="0" 13="0" 20="-0.940407" 21="0" 22="0.340052" 23="0" 30="-193.657608" 31="16.982035" 32="332.875824" 33="1"/>
 			<size x="7.5" y="7.5" z="15"/>
@@ -308,21 +318,12 @@
 			<transform 00="0.340052" 01="0" 02="0.940407" 03="0" 10="0" 11="1" 12="0" 13="0" 20="-0.940407" 21="0" 22="0.340052" 23="0" 30="-198.304611" 31="16.978535" 32="321.277649" 33="1"/>
 			<size x="7.5" y="7.5" z="15"/>
 		</edit_area>
-		<!-- Train  -->
-		<edit_area id="edit11" parent_id="" purchase_interactable_id="" seasonal_flags="0" grid_size="0" is_static="false" default_vehicle="" spawned_static_vehicle_id="0" is_invisible_vehicle="false">
-			<transform 00="0.350714" 01="0" 02="0.936482" 03="0" 10="0" 11="1" 12="0" 13="0" 20="-0.936482" 21="0" 22="0.350714" 23="0" 30="-31.057518" 31="19.023254" 32="269.791016" 33="1"/>
-			<size x="5" y="6" z="150"/>
-		</edit_area>
 		<edit_area id="edit12" parent_id="" purchase_interactable_id="" seasonal_flags="0" grid_size="1" is_static="true" default_vehicle="signal" spawned_static_vehicle_id="0" is_invisible_vehicle="false">
 			<transform 00="0.340052" 01="0" 02="0.940407" 03="0" 10="0" 11="1" 12="0" 13="0" 20="-0.940407" 21="0" 22="0.340052" 23="0" 30="-279.863159" 31="16.982899" 32="365.61499" 33="1"/>
 			<size x="7.5" y="7.5" z="15"/>
 		</edit_area>
 		<edit_area id="edit13" parent_id="" purchase_interactable_id="" seasonal_flags="0" grid_size="1" is_static="true" default_vehicle="signal" spawned_static_vehicle_id="0" is_invisible_vehicle="false">
 			<transform 00="-0.3468" 01="0" 02="-0.93794" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0.93794" 21="0" 22="-0.3468" 23="0" 30="-225.431702" 31="16.954996" 32="331.068054" 33="1"/>
-			<size x="7.5" y="7.5" z="15"/>
-		</edit_area>
-		<edit_area id="fuel_store_train_shed" parent_id="" purchase_interactable_id="" seasonal_flags="0" grid_size="1" is_static="true" default_vehicle="fuel_store_1" spawned_static_vehicle_id="0" is_invisible_vehicle="false">
-			<transform 00="-0.354217" 01="0" 02="-0.935163" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0.935163" 21="0" 22="-0.354217" 23="0" 30="-32.094864" 31="15.82444" 32="265.771515" 33="1"/>
 			<size x="7.5" y="7.5" z="15"/>
 		</edit_area>
 	</edit_areas>
@@ -391,7 +392,7 @@
 			<transform 00="0.918105" 01="0" 02="-0.396337" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0.396337" 21="0" 22="0.918105" 23="0" 30="12.053299" 31="37.811287" 32="357.889679" 33="1"/>
 			<size x="0.286102" y="1.848145" z="0.90921"/>
 		</interactable>
-		<interactable id="workbench_dock_interact" parent_id="" purchase_interactable_id="" seasonal_flags="0" target_object_id="edit7" label="Workbench" use_case="0" interact_type="2" is_purchased="false" is_ignore_purchased="false">
+		<interactable id="workbench_dock_interact" parent_id="" purchase_interactable_id="" seasonal_flags="0" target_object_id="dock_edit" label="Workbench" use_case="0" interact_type="2" is_purchased="false" is_ignore_purchased="false">
 			<transform 00="-0.812841" 01="0" 02="0.582486" 03="0" 10="0" 11="1" 12="0" 13="0" 20="-0.582486" 21="0" 22="-0.812841" 23="0" 30="123.191895" 31="6.372963" 32="194.81192" 33="1"/>
 			<size x="1.984619" y="2.116486" z="2.847656"/>
 		</interactable>
@@ -403,7 +404,7 @@
 			<transform 00="0.934142" 01="0" 02="-0.356903" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0.356903" 21="0" 22="0.934142" 23="0" 30="-47.767792" 31="16.471191" 32="263.396606" 33="1"/>
 			<size x="0.5" y="0.890015" z="0.7005"/>
 		</interactable>
-		<interactable id="workbench_trainshed_interact" parent_id="" purchase_interactable_id="" seasonal_flags="0" target_object_id="edit11" label="Workbench" use_case="0" interact_type="2" is_purchased="false" is_ignore_purchased="false">
+		<interactable id="workbench_trainshed_interact" parent_id="" purchase_interactable_id="" seasonal_flags="0" target_object_id="train_edit" label="Workbench" use_case="0" interact_type="2" is_purchased="false" is_ignore_purchased="false">
 			<transform 00="0.933797" 01="0" 02="-0.357804" 03="0" 10="0" 11="1" 12="0" 13="0" 20="0.357804" 21="0" 22="0.933797" 23="0" 30="-43.417511" 31="17.115486" 32="270.206665" 33="1"/>
 			<size x="1.984619" y="2.116486" z="2.847656"/>
 		</interactable>
@@ -1100,4 +1101,4 @@
 	</train_tracks>
 	<iceberg_markers/>
 </definition>
-
+<!--Aeros Edits -->
