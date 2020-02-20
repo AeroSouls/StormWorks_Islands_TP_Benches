@@ -20,6 +20,8 @@ arctic_island_playerbase.xml (Artic Base)
 
 mega_island_15_2.xml (Mega island part 15_2 Fishing Docks)
 
+mega_island_9_8.xml (Mega island part 9_8 North Harbor)
+
 Install:
 
 To install please make a backup of your files first!
